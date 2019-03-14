@@ -5,7 +5,7 @@ import TextInput from 'crrc/TextInput';
 export default function ExampleOptional() {
   return (
     <TextInput
-      html="text-input-optional"
+      htmlId="text-input-optional"
       label="Optional Text Input"
       name="text-input-optional"
       onChange={() => {}}

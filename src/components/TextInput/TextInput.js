@@ -29,6 +29,7 @@ const TextInput = ({
         styles={error && { border: 'solid 1px red' }}
         {...rest}
       />
+      {children}
       {error && (
         <div className="error" style={{ color: 'red' }}>
           {error}
