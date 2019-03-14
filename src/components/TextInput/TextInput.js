@@ -61,7 +61,7 @@ TextInput.propTypes = {
   placeholder: PropTypes.string,
 
   /** Value */
-  value: PropTypes.array,
+  value: PropTypes.any,
 
   /** String to display when error occurs */
   error: PropTypes.string,
