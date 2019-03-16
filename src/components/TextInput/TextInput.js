@@ -26,7 +26,7 @@ const TextInput = ({
         placeholder={placeholder}
         value={value}
         onChange={onChange}
-        styles={error && { border: 'solid 1px red' }}
+        style={error && { border: 'solid 1px red' }}
         {...rest}
       />
       {children}
